@@ -404,9 +404,9 @@ le-acme-core@^2.0.5:
     request "^2.74.0"
     rsa-compat "^1.2.7"
 
-le-challenge-cloudflare@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/le-challenge-cloudflare/-/le-challenge-cloudflare-1.0.0.tgz#0129dc964fa81f6453c899183e1694ed18017623"
+le-challenge-cloudflare@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/le-challenge-cloudflare/-/le-challenge-cloudflare-1.0.1.tgz#02dccb80bbdbe368452151cec745d4cc0c024636"
   dependencies:
     cloudflare "^1.1.1"
 
@@ -437,9 +437,9 @@ le-store-certbot@^2.0.3:
     pyconf "^1.1.2"
     safe-replace "^1.0.2"
 
-le-store-s3@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/le-store-s3/-/le-store-s3-1.0.0.tgz#dd0f451dc80f1b55a161345c22ef6d95a9f9bb73"
+le-store-s3@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/le-store-s3/-/le-store-s3-1.0.1.tgz#8d6055fab41c0a3a17796556b73f00abd8847483"
   dependencies:
     aws-sdk "^2.54.0"
     bluebird "^3.5.0"
