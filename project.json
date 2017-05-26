@@ -1,0 +1,6 @@
+{
+  "name": "letslambda-encrypt",
+  "description": "Create let's encrypt certificate and auto-renew with AWS lambda",
+  "memory": 128,
+  "timeout": 5
+}
