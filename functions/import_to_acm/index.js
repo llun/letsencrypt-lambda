@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk')
-const acm = new AWS.ACM()
+const acm = new AWS.ACM({ region: 'us-east-1' })
 const s3 = new AWS.S3()
 
 const Bucket = process.env.S3_BUCKET
