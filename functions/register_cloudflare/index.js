@@ -1,4 +1,3 @@
-const AWS = require('aws-sdk')
 const Greenlock = require('greenlock')
 
 const S3Store = require('le-store-s3')
@@ -14,7 +13,6 @@ const store = S3Store.create({
   S3: { bucketName: process.env.S3_BUCKET },
   debug: process.env.DEBUG
 })
-console.log('store', S3Store, store)
 const letsencrypt = Greenlock.create({
   server: process.env.LETSENCRYPT_SERVER || Greenlock.stagingServerUrl,
   store,
