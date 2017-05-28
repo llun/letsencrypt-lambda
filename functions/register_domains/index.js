@@ -43,12 +43,12 @@ const email = process.env.LETSENCRYPT_ACCOUNT_EMAIL
 
 exports.handle = (event, context, callback) => {
   const domains = event.domains
+  console.log(`requesting ${domains} ssl with account ${email}`)
 
   if (!domains || !email) {
     return callback(new Error('required domain and email'))
   }
 
-  console.log(`requesting ${domain} ssl with account ${email}`)
   letsencrypt
     .register({
       domains,
