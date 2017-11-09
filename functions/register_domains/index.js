@@ -30,6 +30,7 @@ const store = S3Store.create({
 const letsencrypt = Greenlock.create({
   server: process.env.LETSENCRYPT_SERVER || Greenlock.stagingServerUrl,
   store,
+  renewWithin: 15 * 86400000, // 15 Days
   challenges: {
     'dns-01': challenge
   },

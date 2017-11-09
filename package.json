@@ -10,8 +10,8 @@
   "author": "Maythee Anegboonlap <null@llun.me>",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.143.0",
-    "greenlock": "^2.1.16",
+    "aws-sdk": "^2.148.0",
+    "greenlock": "^2.1.17",
     "le-challenge-cloudflare": "^1.0.1",
     "le-challenge-route53": "llun/le-challenge-route53",
     "le-store-s3": "^1.0.1"
